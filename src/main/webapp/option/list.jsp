@@ -154,7 +154,7 @@
             
       <script>
          let fn_init_toss_payment = function(obj) {
-            const clientKey = 'test_ck_DnyRpQWGrNDzNjejy5n23Kwv1M9E'
+            const clientKey = 'test_ck_'
    
                const customerKey = crypto.randomUUID()  
                const payment_button = document.getElementById("payment-button")

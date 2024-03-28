@@ -64,7 +64,7 @@ public class PayRequestSuccessController implements Controller {
         //amount , orderId도 필요함.
         
         // Authorization 헤더 생성
-        String secretKey = "test_sk_0RnYX2w532ZXMdZoJLqR3NeyqApQ";
+        String secretKey = "test_sk_";
         String authorizationHeader = createAuthorizationHeader(secretKey);
 
         // JSON 데이터 생성
